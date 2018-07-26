@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         gridView = findViewById(R.id.grid_view);
         GlideAdapter adapter = new GlideAdapter(this, getUrlList());
         gridView.setAdapter(adapter);
+
     }
 
     private List<String> getUrlList(){
